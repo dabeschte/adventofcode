@@ -22,7 +22,7 @@ while True:
         else:
             k += 1
     elif s < target:
-        if distance_m_forward < distance_i:
+        if m < len(input)-1 and distance_m_forward < distance_i:
             m += 1
         else:
             i += 1
